@@ -1,0 +1,23 @@
+Package: RWorkflowsetup
+Title: Loads Needed Packages
+Version: 1.0
+Author: Eli Holmes
+Maintainer: <eli.holmes@noaa.gov>
+Description: This is a dummy package that will load the needed packages for the short course when students install from GitHub.
+Depends: R (>= 3.4.1)
+Imports: 
+  devtools,
+  forecast,
+  ggplot2,
+  grid,
+  knitr,
+  png,
+  RCurl,
+  rmarkdown,
+  roxygen2,
+  stringr,
+  tseries,
+  urca
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
