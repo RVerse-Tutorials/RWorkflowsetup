@@ -8,7 +8,7 @@ Depends: R (>= 3.4.1)
 Imports: 
   devtools,
   forecast,
-  ggplot2,
+  ggplot2 (<= 3.0.0),
   grid,
   knitr,
   png,
