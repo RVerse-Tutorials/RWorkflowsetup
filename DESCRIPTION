@@ -9,13 +9,16 @@ Imports:
   devtools,
   forecast (>= 8.4),
   grid (>= 3.4.1),
+  gridExtra,
   knitr (>= 1.20),
   png,
   RCurl,
+  reshape2,
   roxygen2 (>= 6.1.0),
   stringr (>= 1.3.1),
   tseries (>= 0.10-45),
-  urca (>= 1.3-0)
+  urca (>= 1.3-0),
+  kableExtra (>= 0.9.0)
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
