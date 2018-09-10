@@ -11,14 +11,10 @@ Imports:
   forecast (>= 8.4),
   ggplot2,
   grid (>= 3.4.1),
-<<<<<<< HEAD
-  gridExtra,
-=======
   gridExtra (>= 2.3),
->>>>>>> 1071e0e999410faeea3c201ca990a65ccb7b2568
   knitr (>= 1.20),
   magrittr (>= 1.5),
-  png,
+  png (>=0.1-7),
   reshape2 (>= 1.4.3),
   RCurl,
   reshape2,
