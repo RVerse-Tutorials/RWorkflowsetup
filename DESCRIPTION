@@ -7,11 +7,19 @@ Description: This is a dummy package that will load the needed packages for the 
 Depends: R (>= 3.4.1)
 Imports: 
   devtools,
+  dplyr (>= 0.7.5),
   forecast (>= 8.4),
+  ggplot2,
   grid (>= 3.4.1),
+<<<<<<< HEAD
   gridExtra,
+=======
+  gridExtra (>= 2.3),
+>>>>>>> 1071e0e999410faeea3c201ca990a65ccb7b2568
   knitr (>= 1.20),
+  magrittr (>= 1.5),
   png,
+  reshape2 (>= 1.4.3),
   RCurl,
   reshape2,
   roxygen2 (>= 6.1.0),
