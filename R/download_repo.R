@@ -8,7 +8,7 @@
 #' 
 #' @export
 download.repo <- function(repo, githuburl = "https://github.com/RVerse-Tutorials/", clean=TRUE){
-    ok <- download.file( 
+    ret <- download.file( 
     url <- paste0(githuburl, repo, "/archive/master.zip"),
                   destfile = paste0(repo, "-master.zip")
     )
@@ -22,7 +22,7 @@ download.repo <- function(repo, githuburl = "https://github.com/RVerse-Tutorials
       suppressWarnings(file.remove(paste0(repo,"/.Rhistory")))
       suppressWarnings(file.remove(paste0(repo,"/.RData")))
     }
-    if(ok){
+    if(!ret){ #success = 0
       cat("Success!\n")
     }else{
       cat("Failed!\n", ok)
