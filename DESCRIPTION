@@ -2,7 +2,7 @@ Package: RWorkflowsetup
 Title: Loads Needed Packages
 Version: 1.1
 Author: Eli Holmes
-Maintainer: <eli.holmes@noaa.gov>
+Maintainer: Eli Holmes <eeholmes@uw.edu>
 Description: This is a dummy package that will load the needed packages for the short course when students install from GitHub.
 Depends: R (>= 3.4.1)
 Imports: 
